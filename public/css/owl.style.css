@@ -1,0 +1,316 @@
+
+
+.cursol_area{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.cursol_area_inner{
+	display: block;
+}
+.cursol_area_inner_title{
+	max-width: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.cursol_area_inner_title h3{    
+	max-width: 90%;
+    width: 100%;
+	font-size: 24px;
+	color: #000;
+	line-height: 120%;
+	display: inline-block;
+	position: relative;
+}
+.customNavigation{
+	display: inline-block;
+	max-width: 84px;
+	width: 100%;
+	position: absolute;
+	right: 18px;
+    top: 22px;
+
+}
+.prev_brn{
+	position: relative;
+}
+.prev_brn:after{
+	content: "";
+	position: absolute;
+	width: 38px;
+	height: 38px;
+	background: url("../images/home/arrow.png")center center no-repeat;
+	top: -10px;
+    left: -20px;
+}
+.next_btn{
+	position: relative;
+}
+.next_btn:after{
+	content: "";
+	position: absolute;
+	width: 38px;
+	height: 38px;
+	background: url("../images/home/arrow.png")center center no-repeat;
+	transform: rotate(180deg);
+	top: -10px;
+    right: -20px;
+}
+#owl-demo .item{
+  background: #3fbf79;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.customNavigation{
+  text-align: center;
+}
+
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.customNavigation a{
+	cursor: pointer;
+	padding: 10px;
+	font-size: 40px;
+}
+.owl-pagination{
+	text-align:center;
+	display: none;
+}
+
+.owl-pagination .owl-page{
+	width: 10px;
+    height: 10px;
+    background: #000;
+    margin: 10px;
+	display:inline-block;
+}
+.owl-pagination .owl-page.active{
+    background: #f00;
+}
+
+.owl-carousel .owl-wrapper-outer{
+	margin-left: -9px;
+}
+/***********************************/
+/*********  fooditem_card Area *********/
+/***********************************/
+
+.fooditem_card{
+	display: block;
+	box-sizing: border-box;
+}
+.fooditem_card_img{
+	position: relative;
+	width: 100%;
+}
+.fooditem_card_img a{
+	line-height: 30px;
+    text-align: center;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: #00a8e5;
+	border-radius: 50%;
+	transition: 0.3s;
+	right: -16px;
+    top: -16px;
+}
+.fooditem_card_img a:hover{
+	background: #000;
+	transition: 0.3s;
+}
+.fooditem_card_img span{
+	font-size: 12px;
+	color: #000;
+	line-height: 120%;
+	font-weight: 200;
+	position: absolute;
+	width: 50px;
+	height: 10px;
+	top: -40px;
+    right: -22px;
+}
+.fooditem_card_text{
+	text-align: left;
+	width: 100%;
+	padding-top: 16px;
+	display: block;
+}
+.card_text_inner{
+	padding-left: 84px;
+	position: relative;
+}
+/* .card_text_inner:after{
+	content: "";
+	position: absolute;
+	background: url("../images/home/inner_logo.png")center center no-repeat;
+	width: 86px;
+    height: 86px;
+    top: -6px;
+    left: -2px;
+} */
+.card_text_inner p{
+	font-size: 17px;
+	color: #000;
+	line-height: 120%;
+	padding-top: 4px;
+}
+.card_text_inner p span{
+	font-size: 13px;    
+	position: absolute;
+    top: -11px;
+    right: 0;
+}
+.card_text_inner h3{
+	font-size: 18px;
+	color: #000;
+	line-height: 27px;
+	display: block;
+}
+.card_text_inner ul{
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.card_text_inner ul li{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	display: inline-block;
+}
+.card_text_inner ul li a{
+	font-size: 13px;
+	color: #000;
+	line-height: 120%;
+	padding-left: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 8px;
+	background: #ecedee;
+	position: relative;
+	font-weight: 200;
+}
+.card_text_inner ul li a:after{
+	content: "";
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	background: #000;
+	border-radius: 50%;
+	top: 8px;
+    left: 6px;
+}
+.card_text_inner2{
+	display: block;
+	padding-top: 4px;
+	text-align: left;
+}
+.card_text_inner2 p img{
+	padding-right: 46px;
+}
+.card_text_inner2 p{
+	font-size: 14px;
+	line-height: 120%;
+	color: #c21d1d;
+}
+.card_text_inner3{
+	text-align: left;
+	display: block;
+	padding-top: 9px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid#c0c0c0;
+}
+.card_text_inner3_left{
+	max-width: 150px;
+	width: 100%;
+	display: inline-block;
+}
+.card_text_inner3_left p{
+	font-size: 17px;
+	line-height: 120%;
+	color: #000;
+	font-weight: 400;
+}
+.card_text_inner3_left p img{
+	padding-right: 5px;
+	padding-left: 8px;
+    margin-top: -5px;
+}
+.card_text_inner3_left p span{
+	font-weight: 200;
+	text-decoration: underline;
+}
+.card_text_inner3_right{
+	display: inline-block;
+	max-width: 85px;
+	width: 100%;
+	margin-left: 120px;
+}
+.card_text_inner3_right p{
+	font-size: 17px;
+	line-height: 120%;
+	color: #000;
+	font-weight: 400;
+}
+.card_text_inner3_right p img{
+	padding-right: 5px;
+}
+.card_text_inner4{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.card_text_inner4 ul{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.card_text_inner4 ul li{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: inline-block;
+}
+.card_text_inner4 ul li a{
+	font-size: 12px;
+	color: #000;
+	line-height: 120%;
+	padding-left: 10px;
+	position: relative;
+	font-weight: 200;
+}
+.card_text_inner4 ul li a:after{
+	content: "";
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	background: #000;
+	border-radius: 50%;
+	top: 6px;
+    left: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+/*************end*************/

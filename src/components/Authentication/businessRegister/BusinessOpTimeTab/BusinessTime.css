@@ -1,0 +1,85 @@
+.time_selector .react-time-picker__wrapper {
+  font-size: 15px;
+  color: #000;
+  padding-left: 7px;
+  line-height: 120%;
+  border: none;
+  background: #f1f1f2;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  width: 120px;
+  height: 24px;
+  position: relative;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.step3_tab_pane_item_inner {
+  max-width: 252px;
+  width: 100%;
+  display: inline-block;
+  padding-left: 54px;
+}
+
+@media only screen and (max-width: 520px),
+  only screen and (max-device-width: 520px) {
+  .step3_tab_pane_item_inner {
+    padding-left: 5px;
+    max-width: 128px;
+  }
+  .OpnningTimesMain .step3_tab_pane_item_inner {
+    max-width: 90px;
+  }
+  .step3_page_button_inner button {
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width: 766px),
+  only screen and (max-device-width: 766px) {
+  .step3_tab_pane_item_inner {
+    padding-left: 5px;
+    max-width: 128px;
+  }
+  .OpnningTimesMain .step3_tab_pane_item_inner {
+    max-width: 90px;
+  }
+  .step3_page_button_inner button {
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width: 768px),
+  only screen and (max-device-width: 768px) {
+  /* .step3_tab_pane_item_inner {
+    max-width: 250px;
+  }
+  .step3_tab_pane_item_inner {
+    padding-left: 104px;
+  } */
+  .step3_tab_pane_item_inner1 {
+    padding-left: 8px;
+    max-width: 160px;
+  }
+  .step3_tab_pane_item_inner2 {
+    padding-left: 0px;
+  }
+  .step3_page_button_inner button {
+    margin-top: 32px;
+  }
+}
+
+@media only screen and (max-width: 991px),
+  only screen and (max-device-width: 991px) {
+  /* .step3_tab_pane_item_inner {
+    padding-left: 105px;
+  } */
+  .step3_tab_pane_item_inner1 {
+    padding-left: 16px;
+  }
+}

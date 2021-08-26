@@ -1,0 +1,347 @@
+@media only screen and (max-width: 1200px),
+  only screen and (max-device-width: 1200px) {
+  .nav_logo_d {
+    max-width: 44.9% !important;
+  }
+  .pc_footer_right {
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 1024px),
+  only screen and (max-device-width: 1024px) {
+  .nav_logo_d {
+    max-width: 44%;
+    width: 100%;
+  }
+  .pc_footer_right ul li a {
+    padding: 0px 9px;
+  }
+  .nav_logo_d {
+    max-width: 44.9% !important;
+  }
+}
+
+@media only screen and (max-width: 992px),
+  only screen and (max-device-width: 992px) {
+  .pc_header {
+    display: none;
+  }
+  .tab_header,
+  .mobile {
+    display: block !important;
+  }
+  .mobile {
+    /* margin-top: 12px;
+    margin-bottom: 12px; */
+  }
+  .pc_footer {
+    display: none !important;
+  }
+  .tab_display {
+    display: block;
+    background: #000;
+    margin-bottom: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .tab_display_innerlist1 img {
+    margin-left: -77px;
+  }
+  .tab_display_innerlist6 img {
+    margin-right: -66px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 920px),
+  only screen and (max-device-width: 920px) {
+  .tab_display {
+    display: block;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px),
+  only screen and (max-device-width: 768px) {
+  .tab_display_inner ul li {
+    max-width: 15.7%;
+  }
+  .tab_display_innerlist6 img {
+    margin-right: -54px;
+    width: 100%;
+  }
+  .tab_display_innerlist1 img {
+    margin-left: -55px;
+  }
+}
+
+@media only screen and (max-width: 580px),
+  only screen and (max-device-width: 580px) {
+  .tab_display_inner ul li {
+    max-width: 15.66%;
+  }
+
+  .tab_display_innerlist1 img {
+    margin-left: -50px;
+  }
+  .tab_display_innerlist2 img {
+    margin-left: -35px;
+  }
+  .tab_display_innerlist3 img {
+    margin-left: -7px;
+  }
+  .tab_display_innerlist4 img {
+    margin-right: -6px;
+  }
+  .tab_display_innerlist5 img {
+    margin-right: -17px;
+  }
+  .tab_display_innerlist6 img {
+    margin-right: -44px;
+  }
+}
+
+@media only screen and (max-width: 480px),
+  only screen and (max-device-width: 480px) {
+  .tab_display_inner ul li {
+    max-width: 15.6%;
+  }
+}
+@media only screen and (max-width: 375px),
+  only screen and (max-device-width: 375px) {
+  .tab_display_inner ul li {
+    max-width: 15%;
+  }
+}
+
+@media only screen and (max-width: 1200px),
+  only screen and (max-device-width: 1200px) {
+  .pc_footer_right {
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 1024px),
+  only screen and (max-device-width: 1024px) {
+  .nav_logo_d {
+    max-width: 44%;
+    width: 100%;
+  }
+  .pc_footer_right ul li a {
+    padding: 0px 9px;
+  }
+}
+
+@media only screen and (max-width: 992px),
+  only screen and (max-device-width: 992px) {
+  .pc_header {
+    display: none;
+  }
+  .tab_header,
+  .mobile {
+    display: block !important;
+  }
+  .mobile {
+    /* margin-top: 12px;
+    margin-bottom: 12px; */
+  }
+  .pc_footer {
+    display: none !important;
+  }
+  .tab_display {
+    display: block;
+    background: #000;
+    margin-bottom: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+@media only screen and (max-width: 920px),
+  only screen and (max-device-width: 920px) {
+  .tab_display {
+    display: block;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px),
+  only screen and (max-device-width: 768px) {
+  .tab_display_inner ul li {
+    max-width: 15.7%;
+  }
+}
+
+@media only screen and (max-width: 580px),
+  only screen and (max-device-width: 580px) {
+  .tab_display_inner ul li {
+    max-width: 15.66%;
+  }
+  .tab_display_innerlist1 img {
+    margin-left: -50px;
+  }
+  .tab_display_innerlist2 img {
+    margin-left: -35px;
+  }
+  .tab_display_innerlist3 img {
+    margin-left: -7px;
+  }
+  .tab_display_innerlist4 img {
+    margin-right: -6px;
+  }
+  .tab_display_innerlist5 img {
+    margin-right: -17px;
+  }
+  .tab_display_innerlist6 img {
+    margin-right: -44px;
+  }
+}
+
+@media only screen and (max-width: 480px),
+  only screen and (max-device-width: 480px) {
+  .tab_display_inner ul li {
+    max-width: 15.6%;
+  }
+}
+@media only screen and (max-width: 375px),
+  only screen and (max-device-width: 375px) {
+  .tab_display_inner ul li {
+    max-width: 15%;
+  }
+}
+
+
+
+
+/* CSS GOT From step form css files START  */
+@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px){
+	
+	.nav_logo_d {
+		max-width: 46.9% !important;
+	}
+	.pc_footer_right{
+		float: right;
+	}
+}
+
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px){
+	
+
+	.nav_logo_d{
+		max-width: 46.9%;
+		width: 100%;
+	}
+	.pc_footer_right ul li a {
+		padding: 0px 9px;
+	}
+}
+
+@media only screen and (max-width: 992px), only screen and (max-device-width: 992px) {
+	.pc_header{
+		display: none;
+	}
+	.tab_header, .mobile{
+		display: block !important;
+	}
+	.mobile{
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
+	.pc_footer{
+		display: none;
+	}
+	.tab_display{
+		display: block;
+		background: #000;
+		margin-bottom: 10px;
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.tab_display_innerlist1 img {
+		margin-left: -77px;
+	}
+	.tab_display_innerlist6 img {
+		margin-right: -66px;
+		width: 100%;
+	}
+
+}
+@media only screen and (max-width: 920px), only screen and (max-device-width: 920px) {
+
+	
+	.tab_display{
+		display: block;
+		margin-bottom: 0px;
+	}
+
+
+}
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+	
+	
+	.tab_display_inner ul li{
+		max-width: 15.7%;
+	}
+	.tab_display_innerlist6 img {
+		margin-right: -54px;
+		width: 100%;
+	}
+	.tab_display_innerlist1 img {
+		margin-left: -55px;
+	}
+}
+
+@media only screen and (max-width: 580px), only screen and (max-device-width: 580px) {
+	
+	.tab_display_inner ul li {
+		max-width: 15.66%;
+	}
+		
+	.tab_display_innerlist1 img {
+		margin-left: -50px;
+	}
+	.tab_display_innerlist2 img {
+		margin-left: -35px;
+	}
+	.tab_display_innerlist3 img {
+		margin-left: -7px;
+	}
+	.tab_display_innerlist4 img {
+		margin-right: -6px;
+	}
+	.tab_display_innerlist5 img {
+		margin-right: -17px;
+	}
+	.tab_display_innerlist6 img {
+		margin-right: -44px;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+	
+	
+	.tab_display_inner ul li{
+		max-width: 15.6%;
+	}
+	
+	
+}
+@media only screen and (max-width: 375px), only screen and (max-device-width: 375px) {
+	
+	.tab_display_inner ul li {
+		max-width: 15%;
+	}
+	
+	
+}
+
+/* -------- END  --------- */

@@ -1,0 +1,10 @@
+.selectedRole {
+  position: absolute;
+  width: 16px;
+  height: 14px;
+  background: url("../../../styleImg/btncheck.png") center center no-repeat;
+  right: 12px;
+  top: 50%;
+  margin-top: -7px;
+}
+/* images/btncheck.png" */

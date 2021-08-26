@@ -1,0 +1,35 @@
+li.option-active {
+  background-color: #00a5e0;
+  color: #ffffff;
+}
+
+ul.options {
+  padding-left: 0;
+  border: 1px solid #dddddd;
+  max-height: 300px;
+  overflow: auto;
+  position: absolute;
+  z-index: 999;
+  background-color: white;
+  width: 100%;
+  top: 45.2px;
+  border-top: none !important;
+  left: 0;
+}
+
+.options li {
+  padding: 7px 18px;
+  border-bottom: 1px solid #f1f1f1;
+  text-align: left;
+  cursor: pointer;
+}
+
+.options li:hover {
+  background: #f5f5f5;
+  color: black;
+}
+
+.addresslookup {
+  position: relative;
+  max-width: 328px;
+}

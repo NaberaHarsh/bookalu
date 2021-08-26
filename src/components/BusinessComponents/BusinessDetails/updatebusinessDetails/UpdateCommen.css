@@ -1,0 +1,249 @@
+.updatebtn {
+  /* max-width: 166px;
+    width: 100%;
+    height: 48px;
+    background: #000;
+    font-size: 17px;
+    color: #fff;
+    line-height: 120%;
+    transition: 0.3s;
+    border: 1px solid#000; */
+
+  max-width: 328px;
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 600;
+  color: #fff;
+  padding: 16px;
+  background: #000;
+  display: block;
+  border: none;
+  /* margin: 0 auto; */
+  margin-top: 26px;
+  /* margin-bottom: 130px; */
+  transition: 0.4s;
+  border-radius: 3px;
+}
+
+.upd_opening_time .step3_tab_pane_item_inner {
+  padding-left: unset;
+  width: 32%;
+}
+
+.updatebtn.mxWidth {
+  max-width: 202px !important;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.step2_page_tab_pane_right.updBusDetail_right {
+  float: none;
+}
+
+.udateBusiness_btn_div {
+  text-align: center;
+}
+
+.updatebusiness_title h5 {
+  text-align: center;
+}
+
+.contab_tab_inner_right_address::before {
+  content: "";
+  background-color: rgb(146 148 150 / 47%);
+  position: absolute;
+  left: -15px;
+  top: 0;
+  width: 1px;
+  height: 100%;
+}
+
+.contab_tab_inner_right.updatebusiness_border {
+  border-left: none;
+  border-color: unset;
+}
+
+.contab_tab_inner.updatebusiness_padding {
+  padding-top: unset;
+}
+
+.contab_tab_inner_left_title.updatebusiness_title h5 {
+  padding-bottom: 17px;
+}
+
+.step2_page_tab_pane_right.updBusDetail_right .addresslookup input {
+  margin-top: unset;
+}
+.step2_page_tab_pane_right.updBusDetail_right button {
+  border: unset;
+  padding-left: 154px;
+}
+
+.coverImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imagepreview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page_text_area.updateCompInfo_title {
+  padding: unset;
+}
+
+.step3_tab_pane_item_inner.pLeft {
+  padding-left: 43px !important;
+}
+
+.step3_tab_pane_item_inner.pLeft.dayWidth {
+  width: 34% !important;
+}
+
+.update_service_tabs .rc-tabs-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  border-bottom: 1px solid #dee2e6;
+}
+.update_service_tabs .step6_nav_link1 {
+  background: #f9f9f9;
+}
+.update_service_tabs .rc-tabs-tab-active .nav-link,
+.rc-tabs-nav-list .step6_nav_link1.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+.updateBusiContDetails .update_service_tabs .rc-tabs-tab-active .nav-link,
+.rc-tabs-nav-list .step6_nav_link1.active {
+  color: #495057;
+  /* background-color: #f5f5f5; */
+  background-color: white;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+.rc-tabs-nav-list .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.update_service_tabs .rc-tabs-tab {
+  outline: none;
+}
+.update_service_tabs .rc-tabs-nav-list .rc-tabs-tab {
+  margin-bottom: -1px;
+}
+.update_service_tabs .tab-content,
+.update_service_tabs .rc-tabs-tab-btn {
+  outline: none;
+}
+.page_input_area.updateBusiContDetails .container {
+  max-width: 960px;
+}
+.updateBusiContDetails .step2_page_tab_pane_right {
+  margin-left: -49px;
+}
+.updateBusiContDetails .contab_tab_inner_right_address::before {
+  left: -138px;
+}
+.updateBusiContDetails .tab_content .active {
+  background: #f5f5f5;
+  padding: 0 20px;
+}
+.updateBusiContDetails .rc-tabs-nav-operations.rc-tabs-nav-operations-hidden {
+  display: none;
+}
+.OpnningTimesMain {
+  max-width: 328px;
+}
+.OpnningTimesMain .step3_tab_pane_item_inner1_item {
+  width: 90px;
+}
+.OpnningTimesMain .step3_tab_pane_item_inner2_item {
+  width: 90px;
+}
+.OpnningTimesMain .operationTmDay {
+  justify-content: space-between;
+}
+.updateBusiContDetails .tab_content_inner {
+  padding-left: 0;
+}
+.updateBusiContDetails .tab_content {
+  background: #ffffff;
+}
+
+.rc-tabs-tab {
+  width: 33.3%;
+}
+
+@media only screen and (max-width: 766px),
+  only screen and (max-device-width: 766px) {
+  .updatebtn.page_button_inner.pg_next_btn {
+    margin-bottom: 14px;
+  }
+  .updatebtn.page_button_inner {
+    margin-left: 11px;
+  }
+}
+@media only screen and (max-width: 1024px),
+  only screen and (max-device-width: 1024px) {
+  .updatebtn.page_button_inner.pg_next_btn.ml150 {
+    margin-left: 90px;
+  }
+}
+
+.ml150 {
+  /*  */
+  margin-left: 150px;
+  margin-left: 409px;
+}
+
+.ml11 {
+  /* margin-left: 11px; */
+  margin-left: 490px;
+}
+
+.ml95 {
+  margin-left: 95px;
+}
+
+.rc-tabs-content.rc-tabs-content-top:focus {
+  outline: unset;
+}
+
+.tab-pane.fade.tab_content_inner.active.show:focus {
+  outline: none;
+}
+
+.tab_content_inner_item:focus,
+.contab_tab_inner.updatebusiness_padding:focus {
+  outline: none;
+}
+
+.mT_120 {
+  margin-top: 120px;
+}
+
+.mbUnset {
+  margin-bottom: unset;
+}
+
+.prev_button_setup  {
+  width: 40% !important;
+  display: block;
+
+  background-color: unset;
+  border: unset;
+  border-bottom: 1px solid black;
+  margin-top: 12px
+}

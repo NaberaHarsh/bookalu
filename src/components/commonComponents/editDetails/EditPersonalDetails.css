@@ -1,0 +1,115 @@
+.site_header .bg-light {
+  background: #00a8e5 !important;
+}
+
+.site_top_inner h6 {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.pc_footer_left p {
+  margin-bottom: 0;
+}
+
+.details_input_box_top input {
+  margin-top: 10px;
+}
+
+.input2 {
+  margin-left: 6px;
+}
+
+.updatePass {
+  max-width: 328px;
+}
+
+#details_input_box2 {
+  margin-top: 0;
+}
+
+.nameField {
+  display: flex;
+}
+
+.nameField .details_input_box_top {
+  width: 50%;
+}
+
+.right_side {
+  padding-bottom: 30px;
+}
+
+.scrollPersonalDetail {
+  height: calc(100vh - 174px);
+  overflow: auto;
+}
+
+/* Address Fields */
+
+.searchPostCode {
+  position: relative;
+  margin-top: 10px;
+}
+
+.searchPostCode input {
+  width: 100%;
+  margin-top: 0;
+  max-width: 328px;
+}
+
+.searchPostCode button {
+  position: absolute;
+  right: 0;
+  width: 40px;
+  top: 0;
+  margin-top: 0 !important;
+  padding: 11.4px;
+  background-color: black;
+  color: white;
+}
+
+.signupName {
+  display: flex;
+}
+
+.signupName div {
+  width: 50%;
+  margin-left: 8px;
+}
+
+.addressFieldsUpdateDetails {
+  border: none;
+  background-color: unset;
+  margin-left: 158px;
+  /* border-bottom: 1px solid #f7f7; */
+  color: #00a6de;
+}
+
+.addressFieldsUpdateDetails:hover {
+  background-color: transparent !important;
+  border-bottom: 1px solid #0000003b;
+  /* transition: 0.s !important; */
+}
+
+.searchToggleUpdate {
+  background-color: unset !important;
+  font-size: 16px !important;
+  margin-top: unset !important;
+  padding-top: unset !important;
+  text-align: end !important;
+  cursor: pointer !important;
+  margin-left: 153px !important;
+  border: unset !important;
+}
+
+/* .txtEanble {
+  color: #009fd8 !important;
+}
+.txtDisable {
+  color: black !important;
+} */
+
+
+.site_top_inner.font600 h6{
+  font-weight: 600!important;
+}

@@ -1,0 +1,127 @@
+
+// let dayCount = 0;
+//     let startEndTimeCount = 0;
+//     for(let i = 0 ; i < defineErrorLoc.length; i++) {
+//       if(defineErrorLoc[i].day && !defineErrorLoc[i].startEndTime) {
+//         dayCount += 1;
+//         startEndTimeCount +=1; 
+//       }
+//       if(defineErrorLoc[i].day && defineErrorLoc[i].startEndTime) {
+//         dayCount += 1;
+//       }
+//     };
+
+//     console.log(dayCount, startEndTimeCount);
+
+//     / Shop Business Error Handling 
+//   const shopbusinessVal = (values: any) => {
+//     let test1: any = [];
+//     let something = true;
+//     values.openingtimes.shop.map((val: any, index: number) => {
+//       if (val.day == null) {
+//         return test1.push({ error: true, index, variable: "homebusiness" });
+//       }
+//       if (val.day == index) {
+//         return test1.push({ error: false, index, variable: "homebusiness" });
+//       }
+//     });
+//     test1.map((val: any, index: number) => !val.error && (something = false));
+
+//     return something;
+//   };
+
+//   // Mobile Business Error Handling 
+//   const mobilebusinessVal = (values: any) => {
+//     let test1: any = [];
+//     let something = true;
+//     values.openingtimes.mobile.map((val: any, index: number) => {
+//       if (val.day == null) {
+//         return test1.push({ error: true, index, variable: "homebusiness" });
+//       }
+//       if (val.day == index) {
+//         return test1.push({ error: false, index, variable: "homebusiness" });
+//       }
+//     });
+//     test1.map((val: any, index: number) => !val.error && (something = false));
+
+//     return something;
+//   };
+
+  // if(val.starttime !== "" || val.starttime !== null  && val.endtime !== "" && val.endtime !== null){
+        //   console.log("starttime and endtime is provided");
+         
+        // }
+        // if ( val.starttime == "" ||  val.starttime == null  && val.endtime == "" && val.endtime == null ) {
+        //   updatedVar.homebusiness[index] = {
+        //     day: undefined,
+        //     starttime: "Required",
+        //     endtime: "Required",
+        //   };
+        // }
+        // if ( val.endtime !== "" ||val.starttime !== null && val.endtime !== null || val.endtime !== "" ) {
+        //   console.log(val);
+        //   updatedVar.homebusiness[index] = {
+        //     day: undefined,
+        //     starttime: undefined,
+        //     endtime: undefined,
+        //   };
+        // }
+
+
+        /* 
+        
+        let updatedVar: any = {
+    homebusiness: [],
+  };
+  let errorState = true;
+  values.openingtimes.homebusiness.map((val: any, index: number) => {
+    // check if checkbox is selected
+    if (val.day === index) {
+      // if yes then check if starttime & endtime for that is provided
+      if (
+        val.starttime !== "" ||
+        (val.starttime !== null && val.endtime !== null && val.endtime !== "")
+      )
+        updatedVar.homebusiness[index] = {
+          day: undefined,
+          starttime: undefined,
+          endtime: undefined,
+          startAndEndTimeGiven: false,
+        };
+      // If checkbox is there but starttime || endtime is not given then
+    } else if (
+      (val.day == index && val.starttime == null) ||
+      (val.starttime == "" && val.endtime == null) ||
+      val.endtime == ""
+    ) {
+      updatedVar.homebusiness[index].starttime = "Required";
+      updatedVar.homebusiness[index].endtime = "Required";
+      updatedVar.homebusiness[index].startAndEndTimeGiven = true;
+    } else {
+      updatedVar.homebusiness.push({
+        day: "Required",
+        starttime: "Required",
+        endtime: "Required",
+        startAndEndTimeGiven: true,
+      });
+    }
+  });
+
+  console.log(updatedVar);
+
+  updatedVar.homebusiness.map((val: any, ind: number) => {
+    if (
+      val.day === undefined &&
+      val.starttime === undefined &&
+      val.endtime === undefined &&
+      !val.startAndEndTimeGiven
+    ) {
+      return (errorState = false);
+    }
+  });
+
+  return {
+    error: errorState,
+    errorObj: updatedVar,
+  };
+        */

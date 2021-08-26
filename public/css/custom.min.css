@@ -1,0 +1,376 @@
+.pbg-color{background-color:#00a8e5}
+
+/*Importing Fonts*/
+ @import url("https://use.typekit.net/iig1dkx.css");
+.Liberation-Sans-Bold{
+   font-family: liberation-sans, sans-serif;
+   font-weight: 700;
+   font-style: normal;
+}
+.Liberation-Sans-Bold-Italic{
+    font-family: liberation-sans, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.Liberation-Sans-Italic{
+font-family: liberation-sans, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+}
+
+
+.Liberation-Sans-Regular{
+font-family: liberation-sans, sans-serif;
+font-weight: 400;
+font-style: normal;}
+body{
+	background: #fff;
+}
+.pbg-color{
+ background-color: #00a8e5;
+}
+.ptext-color{
+    color: #00a8e5;
+}
+.text-black{
+   color: #000 !important;
+}
+
+.bell-badge {
+  position: relative;
+  top: -8px;
+  right: 10px;
+  padding: 1px 6px;
+  max-width: 3px;
+
+  max-height: 3px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+.file-button {
+  background: #eee;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 2px 8px;
+}
+
+.file-name {
+  width: 100%;
+  overflow-wrap: break-word;
+  padding: 2px;
+  font-size: 14px;
+}
+.coverphotofile{
+	margin-left: -50px;
+}
+.wrapper{
+	width: 680px;
+	border-radius: 14px;
+	border:2px solid #00a8e5;
+	margin: 0px auto;
+    padding: 4px;
+    margin-bottom: 50px;
+    margin-top: 4vh;
+    font-family: liberation-sans, sans-serif;
+}
+.content-wrapper{
+	width: 340px;
+	/*background: yellow;*/
+	margin: 20px auto;
+	
+}
+.rbr{
+	 border-radius: 0px !important;
+}
+.blackbtn{
+	width: 100%;
+	padding: 6px;
+	background-color: #000;
+	color: #fff;
+
+}
+.fs-18{
+   font-size: 18px;
+   color: #000 !important;
+}
+#footer{
+	position:fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100vw;
+	background: #000;
+	color: #fff;
+	height: 44px;
+}
+.desktop-footer{
+	line-height: 42px;
+}
+.tablettopbar{
+	display: none !important;
+}
+.filebtn-logo:after{
+	content: "Change logo"
+}
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+/* Contact Details Page */
+input#tabcheck{
+  width: 18px;
+  height: 18px; 
+  border-radius: unset; 
+
+}
+.nav-tabs .nav-link{
+	border-radius: unset;
+}
+.tab-name{
+	margin-left: 4px;
+	padding: 0px;
+	font-size: 16px;
+    font-weight: 400;
+}
+.edm-link{
+	text-decoration: underline;
+	
+}
+.listtext{
+	font-size: 14px;
+}
+.text-madham{
+	color: #59595b !important;
+}
+.tabnav{
+	width: 33.3%;
+
+}
+
+.tabnav1{
+	-moz-box-shadow:  3px -3px 5px rgb(206 206 206 / 60%);
+	-webkit-box-shadow: 3px -3px 5px rgb(206 206 206 / 60%);
+	box-shadow: 3px -3px 5px rgb(206 206 206 / 60%);
+}
+.tabnav2,.tabnav3{
+   background: #F9F9F9;
+   -moz-box-shadow: inset 3px -3px 5px rgb(206 206 206 / 60%);
+	-webkit-box-shadow: inset 3px -3px 5px rgb(206 206 206 / 60%);
+	box-shadow: inset 3px -3px 5px rgb(206 206 206 / 60%);
+}
+.mt-custom{
+	margin-top: 3rem;
+}
+/*Opening Time Page */
+.mychecks{
+	width: 18px;
+	height: 18px;
+	margin-top: 2px;
+
+}
+.mylables{
+    margin-left: 6px;
+    font-family: liberation-sans, sans-serif;
+}
+.mycheckdays{
+	margin: 2px auto; 
+}
+select.myselect {
+    width: 80%;
+    background: #F1F1F2;
+    border: none;
+    margin: 1px auto;
+    text-align: center;
+	padding: 4px 5px 2px 5px;
+}
+.fs-12{
+   font-size: 12px;
+}
+/*Services Page */
+.mytextdiv{
+  display:flex;
+  flex-direction:row;
+   align-items: center;
+}
+.mytexttitle{
+  flex-grow:0;
+}
+
+.dividerr{
+  flex-grow:1;
+  height: 1px;
+  background-color: #9f9f9f;
+}
+/* Want a Lorem Page */
+.h11{
+  font-size: 40px;
+}
+/* Tablet Design*/
+@media only screen and (max-width: 768px) {
+  .desktoptopbar{
+  	display: none;
+  }
+  .tablettopbar{
+	display: flex !important;
+	height: 36px;
+	line-height: 36px;
+}
+  .wrapper{
+	width: 100%;
+	border-radius: 14px;
+	border:none;
+	margin: 0px auto;
+    padding: 2px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.content-wrapper{
+	width: 300px;
+/*	background: yellow;*/
+	margin: 20px auto;
+	
+}
+.cross{
+	padding: 2px !important;
+	margin-top: 10px;
+}
+.desktop-footer{
+	display: none;
+}
+.topnave1 img {
+    background: #000;
+    padding: 9px 7px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0px 15px;
+    margin-top: -2px;
+}
+.topnave2 img {
+    background: #000;
+    padding: 4px 10px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0px 15px;
+    margin-top: -2px;
+}
+.desktop-footer{
+	display: none;
+}
+.tabletfooter{
+	line-height: 42px;
+	margin: 0px 20px
+}
+.footer-logo img{
+	max-height: 30px;
+	max-width: 30px;
+}
+ .wrapper{
+ 	max-height: 480px;
+
+
+ }
+.scroll-down {
+    overflow-y: scroll;
+    max-height: 310px;
+}
+.mymt-nimus-services{
+  margin-top: -7px !important;
+  padding: 0px !important;
+}
+
+}
+@media only screen and (max-width: 480px) {
+.mt-custom{
+	margin-top: 0px !important;
+}
+
+.custom-font{
+  font-size: 14px;
+}
+.tab-name{
+	margin-left: 1px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+.tabepadding{
+	padding: 6px 2px;
+
+}
+.mycol{	min-width: 100% !important;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+ul.nav-tabs{
+    min-width: 100%;
+}
+.tabnav {
+     width: 28%; 
+}
+.tabnav1{
+	width: 44%;
+
+}
+select.myselect {
+    width: 100%;
+    margin: 3px auto;
+}
+.mycheckdays {
+    margin: 6px auto;
+}
+.h11{
+  font-size: 30px;
+}
+}
+@media only screen and (max-width: 411px) {
+ .info-img img{
+ 	position: absolute;
+ 	top: -10px;
+ 	left: 5px;
+ }
+ .hideonmobile{
+ 	display: none !important;
+}
+.filebtn-logo{
+	margin-top: 20px;
+}
+.filebtn-logo:after{
+	content: "Choose an image"
+}
+ .onhide{
+ 	margin-top: 20px;
+ }
+ .content-wrapper{
+	width: 285px;
+/*	background: yellow;*/
+	margin: 20px auto;
+	
+}
+
+.b-col{
+	display: block !important;
+    min-width: 100% !important;
+}
+
+
+}
+.form-control {
+    width: 100% !important;
+    height: 48px !important;
+    padding-left: 13px !important;
+    font-size: 15px !important;
+    line-height: 120% !important;
+    color: #000 !important;
+    border: 1px solid#929496 !important;
+    border-radius: 3px !important;
+}
+.form-control:focus {
+    outline: none !important;
+	box-shadow: none !important;
+}
+
+#myTabContent .active{
+	background: #fff;
+}

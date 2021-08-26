@@ -1,0 +1,189 @@
+.cusrorP {
+  cursor: pointer;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.txtalC {
+  text-align: center;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: unset;
+}
+
+.navbar-container {
+  max-width: 1170px;
+  width: 100% !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.step2_page_tab_pane_left select {
+  width: 100%;
+  height: 48px;
+  font-size: 18px;
+  color: #000;
+  line-height: 120%;
+  display: block;
+  border: 1px solid#929496;
+  border-radius: 4px;
+  padding: 4px 5px 5px 20px;
+  box-sizing: border-box;
+  margin-top: 12px;
+  background: white;
+}
+
+.step6_page_tab_pane_item2_top1 {
+  width: 222px !important;
+  margin-right: 32px;
+}
+
+.step6_repeat_content .ServiceCheckTrash {
+  border-left: 1px black solid;
+}
+
+.service_time_picker.react-datepicker-ignore-onclickoutside {
+  background: white;
+}
+
+.step6_page_tab_pane_item2_top3 {
+  width: 134px;
+  margin-right: 32px;
+}
+
+.step6_page_tab_pane_item2_top2 {
+  width: 148px;
+  margin-right: 32px;
+}
+
+.step6_page_tab_pane_item2_top3 {
+  width: 131px;
+  margin-right: 33px;
+}
+
+.step6_page_tab_pane_item2_top5 {
+  width: 92px;
+  margin-right: 20px;
+}
+
+.step6_page_tab_pane_item2_top6 {
+  width: 206px;
+  margin-right: 0px;
+}
+
+.imgText {
+  text-decoration-line: none;
+  cursor: unset;
+}
+
+.contactDet_Dont_know.step_two_dont_know_img.home {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 0px;
+  top: 17px;
+}
+
+.inner2_item3:after {
+  display: none;
+}
+
+.contactDet_Dont_know.step_two_dont_know_img.home.homebusiness {
+  left: 135px;
+}
+
+.contactDet_Dont_know.step_two_dont_know_img.home.mobilebooking {
+  left: 74px;
+}
+
+.inner2_item4:after {
+  display: none;
+}
+
+.contactDet_Dont_know.step_two_dont_know_img.home.shop {
+  left: 68px;
+}
+
+.contactDet_Dont_know.step_two_dont_know_img.home.onlinebooking {
+  left: 148px;
+}
+
+.contactDet_Dont_know.step-3-info {
+  top: 207px !important;
+  left: 485px !important;
+}
+
+.form-control.prize {
+  max-width: 70%;
+  border-top: 1px solid#929496 !important;
+  border-radius: 3px !important;
+  border-bottom: 1px solid#929496 !important;
+  border-right: 1px solid white !important;
+}
+
+.calenderIcon {
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.calenderIcon:hover {
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  background: #007bff;
+}
+
+.poa-checkbox {
+  background: white;
+  border: 1px solid #929496 !important;
+  border-radius: 2px !important;
+}
+
+.contactDet_Dont_know.step_two_dont_know_img.businessOperationMaster {
+  position: unset;
+  float: right;
+  left: unset;
+  top: unset;
+}
+
+div.businessOpTimeMaster .form-control {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.businessProfileImg.radius-50 {
+  border-radius: 50px;
+}
+
+.hourMinContainer {
+  display: flex !important;
+  border: 1px solid #929496 !important;
+}
+
+.hourMinContainer select {
+  border: unset !important;
+}
+
+div.step6_page_tab_pane_item2_inner_item1_inner2.duration-picker {
+  max-width: 211px !important;
+}
+
+.service_time_picker .ui5-time-picker-root .ui5-time-picker-input {
+  border: unset !important;
+}
+
+ui5-input {
+  border: unset !important;
+}
+
+ui5-input:host .ui5-time-picker-input {
+  border: unset !important;
+}

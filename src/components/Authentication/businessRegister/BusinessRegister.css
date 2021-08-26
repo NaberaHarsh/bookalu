@@ -1,0 +1,538 @@
+/* *, *::before, *::after { 
+    box-sizing: unset!important;
+} */
+
+.step6_repeat_content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+}
+
+.trashStepForm {
+  width: 30px;
+  /* margin: unset; */
+  display: block;
+  float: right;
+}
+
+.page6_line_break_remove {
+  width: 88%;
+  height: 1px;
+  float: left;
+  background: rgb(204, 204, 204);
+  margin: 10px 0px;
+}
+.page6_tab_pane_bottom_area_item1.page6_line_rm_btn {
+  float: right;
+  background-color: transparent;
+  border: none;
+  /* padding-right: 0px ; */
+}
+
+/* Found CSS For checkbox  */
+
+div label input {
+  margin-right: 100px;
+}
+
+#ck-button {
+  margin: 4px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+#ck-button label {
+  float: left;
+  width: 4em;
+  position: relative;
+}
+
+#ck-button label span {
+  text-align: center;
+  display: block;
+  background-color: transparent;
+  border: 2px solid #e2e2e2;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ck-button label span img {
+  max-width: 55%;
+  filter: invert(20%);
+}
+#ck-button label input {
+  position: absolute;
+  opacity: 0;
+  /* top:-20px; */
+}
+
+#ck-button input:checked + span {
+  border: 2px solid #00a8e5;
+}
+
+.imagepreview {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  /* border: 2px solid #999999f2; */
+}
+
+.businessServiceTimePicker {
+  width: 100%;
+  height: 48px;
+  font-size: 17px;
+  color: #000;
+  line-height: 120%;
+  display: inline-block;
+  border: 1px solid#929496;
+  border-radius: 4px;
+  padding: 4px 5px 5px 20px;
+  box-sizing: border-box;
+}
+
+.input_inner_item.logoimgCustom p {
+  margin-bottom: 5px !important;
+  padding-top: 8px !important;
+}
+
+.logoimgCustom .input_inner_item_label {
+  left: 0 !important;
+}
+
+.input_inner_item.logoimgCustom {
+  width: 150px;
+  float: left;
+  padding-left: 0 !important;
+  padding-top: 90px;
+}
+.coverPhoto {
+  width: 100%;
+  margin-bottom: 20px;
+  float: left;
+}
+.input_inner_item2.coverimgCustom {
+  width: calc(100% - 150px);
+  float: right;
+  margin-top: 0;
+  position: relative;
+}
+.coverImg {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  background-color: #e6e6e6;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+}
+
+.input_inner_item2.coverimgCustom p {
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+.input_inner_item2.coverimgCustom p:after {
+  top: 7px !important;
+}
+.input_inner_item2.coverimgCustom .input_inner_item2_label {
+  left: 0;
+}
+
+#ck-button label span.businessOperationError {
+  padding: 0;
+  border: none;
+  font-size: 13px;
+  text-align: left;
+  position: absolute;
+  bottom: -25px;
+  left: 91px;
+  color: red;
+}
+.pdbottm {
+  padding-bottom: 15px;
+}
+
+.operationTmDay {
+  display: flex;
+  align-items: flex-start;
+}
+
+.businessServTm .rc-time-picker-input {
+  height: 48px;
+  font-size: 17px;
+  line-height: 120%;
+  padding: 4px 5px 5px 20px;
+  border: 1px solid #929496;
+}
+
+.businessServTmPkr .rc-time-picker-panel-inner {
+  border: 1px solid #929496;
+  width: 100%;
+  overflow: hidden;
+}
+
+.businessServTmPkr .rc-time-picker-panel-input-wrap {
+  padding: 0;
+  border-bottom: 1px solid #929496;
+}
+.businessServTmPkr .rc-time-picker-panel-input {
+  font-size: 17px;
+  height: 48px;
+  padding: 4px 5px 5px 20px;
+}
+.businessServTmPkr .rc-time-picker-panel-select li {
+  font-size: 15px;
+}
+.businessServTmPkr .rc-time-picker-panel-select {
+  width: 50%;
+}
+.businessServTmPkr.rc-time-picker-panel-narrow {
+  max-width: 164px;
+}
+.page6_input_inner_left_item.socialMdIcon {
+  display: flex;
+  align-items: flex-end;
+}
+.socialMdIcon .input_sec1 {
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+.socialMdIcon .input_sec2 {
+  height: 25px;
+}
+.socialMdIcon .input_sec2 input {
+  position: absolute;
+  top: 0;
+  padding-left: 0;
+  width: 100%;
+  height: 20px;
+  font-size: 16px;
+}
+.socialMdIcon .error {
+  font-size: 11px;
+  position: absolute;
+  bottom: -4px;
+}
+
+.occupationH .css-1hwfws3 {
+  height: 25px;
+}
+.socialIcons label input {
+  position: absolute;
+  opacity: 0;
+}
+.socialIcons label span {
+  text-align: center;
+  display: block;
+  background-color: transparent;
+  /* padding: 10px; */
+  border: 2px solid #dedede;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialIcons input:checked + span {
+  border: 2px solid #00a8e5;
+}
+
+.socialIcons span img {
+  filter: invert(20%);
+  max-width: 35%;
+}
+
+.BusinessUserName {
+  position: relative;
+}
+.BusinessUserName .spinner-border {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+}
+.page5_input_area_inner.occupationPage input {
+  height: unset;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.stepFormMiddleBody {
+  height: calc(100vh - 61px);
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+.contactDet_Dont_know {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  left: -33px;
+  top: 14px;
+}
+
+.step2_page_tab.contactDet_tab {
+  padding-left: 50px !important;
+  padding-top: 13px !important;
+  padding-bottom: 10px !important;
+}
+
+/* 
+color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+*/
+/* .nav-item.react-tabs__tab--selected {
+  color: #495057;
+  background-color: #fff;
+
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+} */
+
+.page4_input_area_inner_p1 > span {
+  color: #59595b;
+  font-weight: 400 !important;
+  margin-left: auto;
+}
+
+.page4_input_area_inner_p1.p4_opt_flex {
+  display: flex;
+}
+
+.page4_input_area_inner .industry_select_dropdwon {
+  position: relative;
+  width: 100%;
+  min-height: 26px;
+  font-size: 15px;
+  padding-left: 9px;
+  color: #000;
+  line-height: 120%;
+  border: 1px solid#929496;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  margin-bottom: 22px;
+}
+
+.page4_input_area_inner .industry_select_dropdwon:after {
+  content: "";
+  position: absolute;
+  right: 5px;
+  top: 6px;
+  width: 16px;
+  height: 8px;
+  background: url(../../../assets/images/down_arrow.png) center center no-repeat;
+}
+
+.industry_select_dropdwon .react-dropdown-select-dropdown-handle {
+  opacity: 0;
+}
+
+#page6_checkbox1 {
+  width: 20px;
+  height: 20px;
+  position: initial;
+  left: 20px;
+  top: 12px;
+  z-index: 10;
+  vertical-align: text-bottom;
+}
+.operationTmEr {
+  position: absolute;
+  top: -10px;
+  right: -3px;
+  font-size: 20px !important;
+}
+
+.page_input_area_inner.page5_input_area_inner
+  input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.addressBtnToggle {
+  max-width: 328px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 600;
+  color: #fff;
+  /* padding: 16px; */
+  background: #000;
+  display: block;
+  border: none;
+  margin: 0 auto;
+  margin-top: 10px;
+  transition: 0.4s;
+}
+
+@media only screen and (max-width: 375px),
+  only screen and (max-device-width: 812px) {
+  .page_button_inner.pg_next_btn {
+    /* margin-left: 11px; */
+  }
+}
+
+@media only screen and (max-width: 480px),
+  only screen and (max-device-width: 480px) {
+  .step3_tab_pane_item_inner_item.responsive_step_3_update {
+    margin-top: 10px !important;
+  }
+}
+
+.step3_time_inpt {
+  display: flex;
+}
+
+.step3_time_inpt .step3_tab_pane_item_inner.step3_tab_pane_item_inner1 {
+  margin-left: 30px;
+  padding-right: 60px;
+}
+
+@media only screen and (max-width: 500px),
+  only screen and (max-device-width: 500px) {
+  .step6_repeat_content {
+    display: unset;
+  }
+}
+
+@media only screen and (max-width: 480px),
+  only screen and (max-device-width: 480px) {
+  .step6_repeat_content {
+    display: unset;
+  }
+}
+
+@media only screen and (max-width: 991px),
+  only screen and (max-device-width: 991px) {
+  /* .step6_repeat_content {display: unset;} */
+}
+@media only screen and (max-width: 768px),
+  only screen and (max-device-width: 768px) {
+  .step6_repeat_content {
+    display: unset;
+  }
+}
+
+@media only screen and (max-width: 766px),
+  only screen and (max-device-width: 766px) {
+  .step6_repeat_content {
+    display: unset;
+  }
+}
+
+@media only screen and (max-width: 500px),
+  only screen and (max-device-width: 500px) {
+  .step6_repeat_content {
+    display: unset;
+  }
+}
+
+.pg3 {
+  margin-top: 146px;
+}
+
+#top_inner_item_cicrel6 > b {
+  color: #fff;
+}
+#top_inner_item_cicrel7 > b {
+  color: #fff;
+}
+.step6_page_tab_pane_item2_inner_item1.RcTimepicker {
+  display: flex;
+}
+.searchToggle.addressBtnToggle.step2search {
+  font-size: 14px !important;
+  margin: 5px 0 0 !important;
+}
+
+.signupName .business_ad_form {
+  margin-left: 0px;
+}
+
+.businessProfileImg {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  background-size: cover;
+  top: 0;
+  left: 0;
+}
+
+.step_form_step_one_btn {
+  margin-left: 87px;
+  margin-bottom: unset !important;
+}
+
+.step_form_btn_prev_m {
+  /* margin: 25px 21px 0px auto !important; */
+  background-color: unset;
+  border: unset;
+  border-bottom: 1px solid black;
+  margin-top: 12px;
+}
+
+.step_form_step_next_m {
+  margin: 25px auto 0 0 !important;
+}
+
+@media only screen and (max-width: 766px),
+  only screen and (max-device-width: 766px) {
+  .page_button_inner button {
+    margin-top: 17px;
+    margin-bottom: 11px !important;
+    max-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 991px),
+  only screen and (max-device-width: 991px) {
+  .page_button_inner button {
+    margin-bottom: 92px;
+  }
+}
+
+.input_inner_item_cover_img input {
+  position: relative;
+  margin-left: 20px;
+  opacity: unset;
+  z-index: unset;
+  max-width: unset;
+  width: unset;
+}
+
+.page_text_title_custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip_class {
+  align-self: start;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+/* prev button css in the step form business refister page */
+/* .prev_button_step{
+  background-color: unset;
+    border: unset;
+    border-bottom: 1px solid black;
+    margin-top: 12px;
+
+} */

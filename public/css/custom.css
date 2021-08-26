@@ -1,0 +1,485 @@
+
+
+.wrapper{
+	max-width: 750px;
+	width: 100%;
+	margin-top: 115px;
+	margin-bottom: 115px;
+	position: relative;
+}
+.wrapper_close{
+	text-decoration: none;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	right: 20px;
+    top: 24px;
+	z-index: 200;
+}
+.change_lorem_col4{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.change_lorem_form_item2{
+	padding-left: 45px;
+}
+.change_lorem_form_item3{
+	padding-left: 50px;
+}
+.change_lorem_before_select{
+	padding-top: 30px;
+}
+.change_lorem_page{
+	padding-top: 27px;
+}
+.change_lorem_page h1{
+	font-size: 40px;
+	color: #000;
+	line-height: 120%;
+}
+.change_lorem_page h1 span{
+	font-weight: 600;
+}
+.change_lorem_page_check{
+	padding-top: 7px;
+}
+.form-check1{
+	padding-left: 0px;
+}
+.blackbtn{
+	max-width: 328px;
+    width: 100%;
+    min-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 600;
+    color: #fff;
+    padding: 16px;
+    background: #000;
+    display: block;
+    border: none;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 34px;
+    transition: 0.4s;
+    border-radius: 3px;
+}
+.blackbtn:hover {
+    background: #00a8e5;
+    transition: 0.4s;
+}
+.blackbtn:focus {
+    outline: none;
+}
+
+/*********** Change Lorem Page End **************/
+
+.contact_details_page{
+	margin-top: 47px !important;
+}
+.contact_details_page .tabnav1, .tabnav2, .tabnav3{
+	position: relative;
+}
+.contact_details_page .tabnav1:after{
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: url("../../images/dontknow.png")center center no-repeat;
+	background-size: cover;
+	top: -35px;
+    left: 8px;
+}
+#myTabContent{
+	padding-top: 11px;
+}
+.contact_details_page .edm-link{
+	font-size: 12px;
+	color: #000;
+	line-height: 120%;
+	text-decoration: underline;
+	padding-top: 17px;
+	padding-bottom: 4px;
+}
+.contact_details_page .listtext{
+	margin-top: 10px;
+}
+.contact_details_page .listtext>a{
+	text-decoration: none;
+	float: right;
+	cursor: pointer;
+}
+.contact_details_page .listtext1{
+	margin-top: 10px;
+}
+.contact_details_page .my-3_1{
+	margin-top: 16px !important;
+	margin-bottom: 5px !important;
+}
+.contact_details_page .my-3_2,
+.contact_details_page .my-3_3{
+	margin-top: 9px !important;
+	margin-bottom: 5px !important;
+}
+.contact_details_page .blackbtn {
+	max-width: 330px;
+	margin-top: 70px;
+}
+.contact_details_page .tabepadding {
+	padding-left: 36px;
+    padding-top: 17px;
+}
+.contact_details_page  .tabnav2 .tab-name{
+	padding-left: 15px;
+}
+.contact_details_page  .tabnav2 .contact_details_page_tab_check{
+    left: 26px;
+}
+
+.contact_details_page_tab_check{
+	position: absolute;
+	top: 13px;
+    left: 12px;
+}
+
+/*********** Contact Details Page End **************/
+
+.info_page{
+	padding-top: 10px;
+}
+.info_page .content-wrapper{
+	width: 362px;
+}
+.info_page .filebtn-logo{
+	padding-right: 12px;
+	margin-top: 19px;
+	position: relative;
+}
+.info_page .filebtn-logo:before{
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: url("../../images/dontknow.png")center center no-repeat;
+	background-size: cover;
+	top: 7px;
+    right: -129px;
+}
+.info_page .file-label{
+	margin-bottom: .4rem;
+}
+.info_page .justify-content-center1{
+	margin-top: 13px !important;
+}
+.info_page .edm-link{
+	text-decoration: none;
+	font-size: 12px;
+    color: #000;
+    line-height: 120%;
+    padding-top: 7px;
+}
+.form-control.info_page_texarea{
+	padding: 12px 10px 12px 18px;
+    font-size: 17px !important;
+    color: #000;
+    line-height: 120%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid#929496 !important;
+    height: 95px !important;
+    border-radius: 3px !important;
+    background: #fff;
+}
+.info_page .edm-link1 {
+	text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    line-height: 120%;
+    padding-top: 3px;
+}
+
+
+/*********** Offer popup Page End **************/
+
+
+.offer_page{
+	padding-top: 60px;
+}
+.offer_page .content-wrapper{
+	width: 360px;
+}
+.offer_page .top_box{
+	position: relative;
+}
+.offer_page .top_box:after{
+	content: "";
+	position: absolute;
+	width: 84px;
+	height: 84px;
+	background: url("../images/add-logo.png")center center no-repeat;
+	background-size: cover;
+	left: -95px;
+    top: -20px;
+}
+.offer_page_p1{
+	font-size: 14px;
+	color: #000;
+	line-height: 19px;
+	font-weight: 400;
+}
+.offer_page .file-label{
+	margin-top: 8px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.offer_page .file-label:after{
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	background: url("../../images/dontknow.png")center center no-repeat;
+	background-size: cover;
+	right: -28px;
+    top: 8px;
+}
+.offer_page .file-button{
+	padding: 4px 32px 2px 11px;
+}
+.offer_page .fs-18{
+	font-size: 14px;
+	color: #000;
+	line-height: 120%;
+}
+.offer_page .underline{
+	font-size: 14px;
+	color: #000;
+	line-height: 120%;
+	text-decoration: underline;
+	padding-left: 5px;
+}
+.offer_page .justify-content-center1{
+	margin-top: 26px;
+}
+.offer_page_dis{
+	margin-bottom: 11px;
+}
+.offer_page .text_black1{
+	margin-top: 6px;
+}
+.offer_page_p2{
+	font-size: 12px;
+	color: #000;
+	line-height: 120%;
+	float: right;
+	padding-top: 5px;
+}
+.offer_page_p2 span{
+	padding-left: 31px;
+}
+.offer_page .blackbtn{
+	margin-top: 32px;
+    margin-bottom: 36px;
+}
+
+/*********** Contact Details Page End **************/
+
+.opening_page{
+	padding-top: 28px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.opening_page .info-img img{
+	margin-top: -32px;
+}
+.opening_page .tabnav {
+	position: relative;
+}
+.opening_page .tab-name{
+	font-size: 16px;
+	font-weight: 400;
+	position: absolute;
+    left: 39px;
+    top: 15px;
+}
+.opening_page .mt-custom {
+    margin-top: 50px !important;
+}
+.opening_page .colom_1{
+	padding-left: 80px;
+}
+.opening_page .colom_2{
+	padding-left: 45px;
+}
+.opening_page .colom_3{
+	padding-left: 20px;
+}
+.opening_page .myselect{
+	padding: 2px 5px 0px 5px;
+	margin-top: 2px;
+}
+.opening_page .tabepadding{
+	padding-top: 15px;
+	padding-bottom: 27px;
+}
+.opening_page  .tabnav2 .tab-name{
+	padding-left: 15px;
+}
+.opening_page  .tabnav2 .opening_page_tab_check{
+    left: 26px;
+}
+.opening_page .tabnav3 .opening_page_tab_check{
+	left: 28px;
+}
+.opening_page_tab_check{
+	position: absolute;
+	top: 11px;
+    left: 12px;
+}
+.opening_page .tabnav3 .tab-name{
+	left: 50px;
+}
+
+/*********** Change Lorem Page End **************/
+
+.services_page{
+	padding-top: 26px;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+.services_page .tab-name{
+	font-size: 16px;
+	font-weight: 400;
+}
+.services_page .mr-3{
+	margin-bottom: 16px;
+}
+.services_page .nav-tabs{
+	padding-top: 4px;
+}
+.services_page .tabepadding{
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.services_page .tab-name1{
+	margin-left: -2px;
+	font-weight: 600;
+}
+.services_page #myTabContent{
+	padding-top: 28px;
+}
+.services_page .exampleInputEmail1{
+	margin-bottom: 3px;
+}
+.services_page .my-row-data-services{
+	padding-top: 6px;
+}
+.services_page_label1{
+	margin-bottom: 12px;
+}
+.services_page .fs-12 {
+    font-size: 16px;
+    padding-left: 16px;
+	line-height: 29px;
+	margin-bottom: 20px;
+}
+.services_page .mb-minus{
+	margin-bottom: .9rem;
+}
+.services_page .my-p-badge {
+    padding-left: 10px;
+    margin-right: 8px;
+}
+.services_page .my-p-badge img{
+	margin-top: 3px;
+}
+.services_page .mycheckdays{
+	margin-left: 18px;
+    margin-right: 0px;
+}
+.services_page .mytextdiv{
+	margin-top: 1px;
+	margin-left: 16px;
+}
+.services_page .btn-lg{
+	padding: 0;
+}
+.services_page .mt-4{
+	margin-top: 2.5rem!important;
+}
+.services_page .blackbtn {
+	max-width: 328px;
+	margin-top: 66px;
+	margin-bottom: 66px;
+}
+.services_page .mytexttitle .fs-12{
+	padding-left: 0;
+}
+.services_page .mytexttitle .fs-12 a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+}
+.services_page .mytexttitle2{
+	margin-top: 10px;
+}
+.mytexttitle_img{
+	padding-left: 6px;
+}
+.scroll-down {
+    overflow-y: scroll;
+    max-height: 460px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.scroll-down::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.scroll-down::-webkit-scrollbar-thumb {
+  background: #929496; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroll-down::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+
+/*********** Want Lorem Page End **************/
+
+.want_lorem_page{
+	width: 380px;
+}
+.want_lorem_page .change_lorem_page_check{
+	padding-left: 32px;
+}
+.want_lorem_page .my-4{
+	font-size: 18px;
+	padding-top: 21px;
+	margin-bottom: 17px !important;
+}
+.want_lorem_page .change_lorem_before_select {
+    padding-top: 53px;
+}
+.want_lorem_page_select{
+	padding-top: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+

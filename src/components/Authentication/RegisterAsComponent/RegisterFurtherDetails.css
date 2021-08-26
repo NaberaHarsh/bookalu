@@ -1,0 +1,156 @@
+@media only screen and (max-width: 768px),
+  only screen and (max-device-width: 768px) {
+  .site_main .col-md-6 {
+    max-width: 100%;
+    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+  .right_inner_top p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+    display: block;
+    padding-top: 50px;
+    max-width: 596px;
+    margin: 0 auto;
+  }
+  .have_acc p {
+    display: none;
+  }
+}
+
+.updateEmlLnk {
+  text-decoration: none;
+  color: white;
+}
+
+.searchPostCode {
+  position: relative;
+  margin-top: 10px;
+}
+
+.searchPostCode input {
+  width: 100%;
+  margin-top: 0;
+  max-width: 328px;
+}
+
+.searchPostCode button {
+  position: absolute;
+  right: 0;
+  width: 40px;
+  top: 0;
+  margin-top: 0 !important;
+  padding: 11.4px;
+}
+
+.signupName {
+  display: flex;
+}
+
+.signupName div {
+  width: 50%;
+  margin-left: 8px;
+}
+
+.site_form button.addressFields {
+  background-color: unset;
+  color: #00a6de;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: right;
+  /* margin-top: 10px!important; */
+  padding: 0px;
+  width: 149px;
+  margin: 10px 0px 10px auto;
+  border-bottom: 1px solid #0000003b;
+  /* padding-bottom: 2px; */
+}
+
+.addressFields:hover {
+  background-color: transparent !important;
+  border-bottom: 1px solid #0000003b;
+  /* transition: 0.s !important; */
+}
+
+.addressInfo {
+  text-align: initial;
+  margin-top: 10px;
+}
+
+.addressInfo span {
+  font-weight: 500;
+}
+
+.searchToggle {
+  background-color: unset !important;
+  font-size: 16px !important;
+  margin-top: unset !important;
+  padding-top: unset !important;
+  text-align: end !important;
+  cursor: pointer !important;
+}
+
+/* .searchToggleUpdate:hover {
+  border-bottom: 1px solid black !important;
+} */
+
+.txtEanble {
+  color: #009fd8 !important;
+}
+.txtDisable {
+  color: black !important;
+}
+
+.address_fields50 {
+  display: flex;
+}
+
+.address_fields50 div {
+  width: 50%;
+}
+
+.ml8 {
+  margin-left: 8px;
+}
+
+.number_wrapper {
+  position: relative;
+}
+
+.number_wrapper .country_code {
+  position: absolute;
+  left: 8px;
+  top: 11px;
+}
+
+.number_wrapper input {
+  padding-left: 48px;
+}
+
+@media only screen and (max-width: 991px),
+  only screen and (max-device-width: 991px) {
+  .number_wrapper .country_code {
+    color: white;
+  }
+}
+ 
+
+#gender{
+  margin-top: 15px;
+  height: 40px;
+  width: 330px;
+  border: 1px solid#cccccc;
+} 
+
+
+/* .picker{
+  
+  height: 40px;
+  width: 100%;
+}  
+.select{
+  width: 330px;
+} */
+

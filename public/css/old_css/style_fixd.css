@@ -1,0 +1,311 @@
+/****@import url('https://fonts.googleapis.com/css?family=Rambla:400,700|Saira+Condensed:300,400,500,700,900');***/
+
+/*************start*************/
+
+body {
+  font-family: "liberation-sans", sans-serif !important;
+  position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+  line-height: 100%;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/*************start*************/
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+
+/**************************************/
+/***********  Header Start  ***********/
+/**************************************/
+
+.tab_header {
+  display: none;
+}
+.site_header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  background: #00a8e5;
+}
+.bg-light {
+  background: #00a8e5 !important;
+  width: 100%;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.nav_mobile {
+  display: none;
+}
+.nav_logo_d {
+  max-width: 56.8%;
+  width: 100%;
+}
+.nav_logo_m {
+  display: none;
+}
+.nav-link {
+  font-size: 15px;
+  color: #000;
+  line-height: 120%;
+  font-weight: 600;
+}
+.nav_img1 {
+  margin-top: -6px;
+  padding-right: 9px;
+}
+.manu_item {
+  /* margin-right: 20px; */
+}
+.manu_item1 {
+  margin-right: 38px;
+  font-size: 15px;
+  color: #000 !important;
+  line-height: 120%;
+  font-weight: 600;
+  padding-right: 2px !important;
+}
+.manu_item2 {
+  margin-right: 8px;
+  font-size: 15px;
+  color: #000 !important;
+  line-height: 120%;
+  font-weight: 400;
+}
+.nav_img2 {
+  margin-top: -6px;
+  padding-left: 4px;
+}
+.manu_item3 {
+  position: relative;
+  padding-top: 5px;
+}
+.manu_item3 span {
+  font-size: 12px;
+  color: #fff !important;
+  line-height: 120%;
+  font-weight: 600;
+  background: #db1f1f;
+  text-align: center;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: none;
+  top: 3px;
+  left: 20px;
+}
+
+.mobile {
+  width: 100%;
+  display: none;
+}
+.mobile_left,
+.mobile_middle,
+.mobile_right {
+  max-width: 32.33%;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+}
+.mobile_middle {
+  text-align: center;
+}
+.mobile_right {
+  text-align: right;
+}
+.mobile_left a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  line-height: 120%;
+}
+.mobile_left a i {
+  background: #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.mobile_middle img {
+  text-align: center;
+}
+.mobile_right a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  line-height: 120%;
+}
+.mobile_right a i {
+  background: #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+/**************************************/
+/************  Footer Area ************/
+/**************************************/
+
+.pc_footer {
+  background: #000;
+  display: block;
+  padding: 18px 0px 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.pc_footer_left p {
+  font-size: 14px;
+  color: #fff;
+  line-height: 120%;
+  margin-right: 45px;
+  display: inline-block;
+}
+.pc_footer_left ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.pc_footer_left ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.pc_footer_left ul li a {
+  font-size: 17px;
+  line-height: 120%;
+  color: #fff;
+  padding: 3px;
+}
+.pc_footer_right ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.pc_footer_right ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.pc_footer_right ul li a {
+  font-size: 14.5px;
+  line-height: 120%;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  border-right: 1px solid#fff;
+  padding: 0px 16px;
+}
+#pc_footer_right_last {
+  border: none;
+  padding-right: 0px;
+}
+
+/**************************************/
+/************  Tab Footer  ************/
+/**************************************/
+
+.tab_display {
+  display: none;
+  background: #000;
+}
+.tab_display_inner ul {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tab_display_inner ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  max-width: 16%;
+  width: 100%;
+}
+.tab_display_inner ul li a {
+  text-decoration: none;
+  border-radius: 50%;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.active {
+  background: #000;
+}
+.tab_display_inner ul li a img {
+}
+.tab_display_innerlist1 img {
+  margin-left: -72px;
+}
+.tab_display_innerlist2 img {
+  margin-left: -49px;
+}
+.tab_display_innerlist3 img {
+  margin-left: -14px;
+}
+.tab_display_innerlist4 img {
+  margin-right: -7px;
+}
+.tab_display_innerlist5 img {
+  margin-right: -30px;
+}
+.tab_display_innerlist6 img {
+  margin-right: -70px;
+}
+
+/*************end*************/
+
+/* SCROLL BAR CSS START  */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00a8e5;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00bfff;
+}
+
+/* SCROLL BAR CSS END */

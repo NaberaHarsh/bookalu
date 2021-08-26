@@ -1,0 +1,31 @@
+.addressDropdown {
+  border-radius: unset !important;
+  margin-top: 10px !important;
+}
+
+.addressDropdown button {
+  margin-top: 0 !important;
+  padding: 11px 10px;
+  background-color: black !important;
+  color: white !important;
+}
+
+.rw-popup .rw-btn.rw-btn-select {
+  margin-top: 0px !important;
+  padding: 10px !important;
+}
+
+.rw-popup .rw-input-reset {
+  margin: 10px 0 !important;
+  padding: 10px !important;
+}
+
+.rw-popup .rw-filter-input.rw-widget-picker {
+  /* padding: 0; */
+  border: none !important;
+  border-bottom: 1px solid #dddddd !important;
+  border-radius: unset !important;
+  padding: 0 0.857em !important;
+  margin-bottom: 11.2px !important;
+  height: unset !important;
+}

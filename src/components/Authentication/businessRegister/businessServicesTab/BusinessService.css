@@ -1,0 +1,27 @@
+.service_time_picker {
+  width: 100%;
+  font-size: 15px;
+  color: #000;
+  /* padding-left: 16px; */
+  line-height: 120%;
+  border: none;
+  background: #f1f1f2;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  /* display: block; */
+  height: 48px;
+  border: 1px solid#929496;
+}
+
+.service_time_picker
+  .react-time-picker__wrapper
+  .react-time-picker__inputGroup {
+  padding-left: 16px;
+}
+
+.service_time_picker .react-time-picker__wrapper {
+  border: unset;
+}

@@ -1,0 +1,42 @@
+.input_inner_item p {
+  padding-top: 17px;
+  font-size: 17px;
+  color: #272525;
+  line-height: 120%;
+  display: block;
+  position: relative;
+  padding-bottom: 6px;
+  margin-bottom: unset;
+}
+
+.input_inner_item2 p {
+  padding-top: 17px;
+  font-size: 17px;
+  color: #272525;
+  line-height: 120%;
+  display: block;
+  position: relative;
+  padding-bottom: 6px;
+  margin-bottom: unset;
+}
+
+.page_text_area {
+  /* padding-top: 60px; */
+  text-align: center;
+  /* padding: 40px; */
+  /* padding: 27px; */
+  padding: 16px;
+}
+
+.page_text_title p {
+  display: block;
+  font-size: 17px;
+  line-height: 120%;
+  color: #59595b;
+  text-align: center;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-top: unset;
+}

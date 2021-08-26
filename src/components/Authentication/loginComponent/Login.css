@@ -1,0 +1,11 @@
+.site_form button.getLinkLogin {
+  background-color: unset;
+  color: #00b1e9;
+  font-size: 14px;
+  border-bottom: 1px solid #00000052;
+  margin: 4px 0 0 auto !important;
+  width: 61px;
+  padding: unset;
+  text-align: center;
+  border-radius: unset;
+}
