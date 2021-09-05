@@ -9,7 +9,7 @@ export interface StateProps {
     logoid: number | null;
     industries: string[];
     occupations: string[];
-
+id:number;
     homebusiness?: any;
     mobile?: any;
     shop?: any;

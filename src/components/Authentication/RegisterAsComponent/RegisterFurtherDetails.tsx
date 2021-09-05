@@ -35,10 +35,14 @@ import RegisterSuccess from "../../commonComponents/Popups/RegisterSuccess/Regis
 import ManualAddressForm from "../../commonComponents/Popups/manualAddressForm/MannualAddressForm";
 import { OnChange } from "react-final-form-listeners";
 
-import dropdown from '../../../utils/form/dropdown'
+import dropdown from "../../../utils/form/dropdown";
 
-import DatePicker from '../../../utils/form/Datepicker'
-
+import DatePicker from "../../../utils/form/Datepicker";
+import {
+  required,
+  composeValidators,
+  postCodeValidation,
+} from "../businessRegister/validation";
 
 const RegisterFurtherDetails: React.FC = () => {
   const isFirstRender = useRef(true);
@@ -51,8 +55,6 @@ const RegisterFurtherDetails: React.FC = () => {
   const registerdReducerResponse = useSelector((state: RootState) => state.userRegisterResponse);
   /* prettier-ignore */
   const searchSelectedRducer = useSelector((state: RootState) => state.searchSelectedRducer);
-
-
 
   const [details, setDetails] = useState<SubmittingData>({
     firstName: "",
@@ -165,13 +167,10 @@ const RegisterFurtherDetails: React.FC = () => {
       })
     );
   };
- 
-
- 
 
   const telephoneOrMobile = () =>
     setValidationFlag({ ...validationFlag, mobileOrTelephone: false });
-  return ( 
+  return (
     <div>
       <div>
         <AuthenticationHeader />
@@ -244,31 +243,26 @@ const RegisterFurtherDetails: React.FC = () => {
                               onFocus={() => telephoneOrMobile()}
                             />
                           </div>
-                         
+
                           {validationFlag.mobileOrTelephone && (
                             <span className="error">
                               *Either Mobile Or Telephone number is required{" "}
                             </span>
                           )}
-                      
+
                           <Field
                             name="gender"
-                            placeholder ="Select"
+                            placeholder="Select"
                             //option
                             id="gender"
-                            component = {dropdown} 
-                          /> 
-                           
-                         
+                            component={dropdown}
+                          />
 
-                     
-                     
-                            <Field 
-                              name="datepicker"
-                              placeholder=" Select"
-                              component= {DatePicker }
-                            />
-                      
+                          <Field
+                            name="datepicker"
+                            placeholder=" Select"
+                            component={DatePicker}
+                          />
 
                           {/* <Field
                             name="address"
@@ -327,6 +321,10 @@ const RegisterFurtherDetails: React.FC = () => {
                                 name="postcode"
                                 placeholder="Post Code"
                                 component={TextInput}
+                                validate={composeValidators(
+                                  required,
+                                  postCodeValidation
+                                )}
                               />
                             </div>
 

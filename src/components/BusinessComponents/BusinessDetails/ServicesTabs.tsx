@@ -6,12 +6,16 @@ import { TabList, TabPanel, Tabs, Tab } from "react-tabs";
 
 interface StateProps {
   services: any;
+  companyId: number;
 }
 
-const ServicesTabs: React.FC<StateProps> = ({ services }) => {
+const ServicesTabs: React.FC<StateProps> = ({ services, companyId }) => {
   const result = Object.keys(services).map((key) => [key, services[key]]);
   console.log("result", result);
   const [appointmentBooking, setAppointmentBooking] = useState<boolean>(false);
+  const [serviceId, setServiceId] = useState<any>("");
+
+  console.log("serviceId", serviceId);
 
   const appointmentClickHandler = () => {
     setAppointmentBooking(!appointmentBooking);
@@ -100,6 +104,7 @@ const ServicesTabs: React.FC<StateProps> = ({ services }) => {
                                                 e.preventDefault();
                                                 e.stopPropagation();
                                                 appointmentClickHandler();
+                                                setServiceId(service.id);
                                               }}
                                               href="/"
                                             >
@@ -216,8 +221,10 @@ const ServicesTabs: React.FC<StateProps> = ({ services }) => {
         </div>
       </section>
       <Appointmentcalendar
+        companyId={companyId}
         show={appointmentBooking}
         onHide={appointmentClickHandler}
+        serviceId={serviceId}
       />
     </>
   );

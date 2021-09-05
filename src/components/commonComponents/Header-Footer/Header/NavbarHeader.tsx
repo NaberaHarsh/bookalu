@@ -126,7 +126,8 @@ const NavbarHeader: React.FC = () => {
                       </NavDropdown.Item>
                       <NavDropdown.Item
                         className="dropdown-item nav-link your_page_item3"
-                        href="#"
+                        to={AuthRoutes.specialOffers}
+                        as={Link}
                       >
                         <img src="/images/yourpage/icon_4.png" alt="image" />
                         Special offers

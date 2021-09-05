@@ -11,6 +11,7 @@ export enum AuthRoutes {
   updateIndustries = "/home/update_industries",
   updateOccupation = "/home/update_occupation",
   updateServices = "/home/services_update",
+  specialOffers = "/home/specialOffers"
 }
 
 export enum nonAuthRoutes {

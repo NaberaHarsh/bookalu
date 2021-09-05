@@ -8,3 +8,6 @@ export const CREATE_OCCUPATION_MSG =
   "Something went wrong while creating occupation please try again !";
 
 export const USERNAME_MSG = "Oops! Something went worng... Please try again";
+export const CREATE_APPOINTMENT_MSG =
+  "Something went wrong while creating appointment. Please try again !";
+

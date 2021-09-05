@@ -209,7 +209,12 @@ const BusinessDetails: React.FC<StateProps> = ({ details, searched }) => {
               </TabList>
             </div>
             <TabPanel>
-              {details.services && <ServicesTabs services={details.services} />}
+              {details.services && (
+                <ServicesTabs
+                  services={details.services}
+                  companyId={details.id}
+                />
+              )}
             </TabPanel>
             <TabPanel>
               <Tabs

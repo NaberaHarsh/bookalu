@@ -6,57 +6,75 @@ import "react-multi-carousel/lib/styles.css";
 import DatePicker from "react-datepicker";
 import { addDays, subDays } from "date-fns";
 import "react-datepicker/dist/react-datepicker.css";
+import UserService from "../../../../RouteHandler/axiosHandler/user.service";
+import { setDateFormat, setDateTimeFormat } from "./FormatDate";
+import AppointmentSuccess from "./AppointmentSuccess";
+import { CREATE_APPOINTMENT_MSG } from "../../../../utils/constants/errorMessages";
+import { toast } from "react-toastify";
 
 interface PropsState {
   show: boolean;
   onHide: () => void;
+  companyId: number;
+  serviceId: number;
 }
 const Appointmentcalendar: React.FC<PropsState> = ({
   show,
   onHide,
+  companyId,
+  serviceId,
 }: PropsState) => {
   const [selectedDate, setSelectedDate] = useState<Date>(new Date());
   const [selectedTimeSlot, setSelectedTimeSlot] = useState<any>("");
   const [timeSlotData, setTimeSlotData] = useState<any>([]);
-  const [originalTimeData, setOriginalTimeData] = useState<any>([]);
+  const [appointmentSuccess, setAppointmentSuccess] = useState(false);
 
   useEffect(() => {
-    if (show) {
-      let timeData: any = [];
-      let x = 30; //minutes interval
-      let tt = 540; // start time
-      let ap = ["AM", "PM"]; // AM-PM
+    show && setupData();
+  }, [show, selectedDate]);
 
-      //loop to increment the time and push results in array
-      for (let i = 0; tt < 19 * 60; i++) {
-        let hh = Math.floor(tt / 60); // getting hours of day in 0-24 format
-        let mm = tt % 60; // getting minutes of the hour in 0-55 format
-        timeData[i] = {
-          timeSlot:
-            ("0" + (hh === 12 ? hh : hh % 12)).slice(-2) +
-            ":" +
-            ("0" + mm).slice(-2) +
-            " " +
-            ap[Math.floor(hh / 12)],
-          selected: false,
-          id: i,
-        }; // pushing data in array in [00:00 - 12:00 AM/PM format]
-        tt = tt + x;
-      }
+  const setupData = async () => {
+    try {
+      const payload = {
+        typeId: 3,
+        date: setDateFormat(selectedDate),
+        serviceItemId: serviceId,
+        companyId: companyId,
+      };
+      const response = await UserService.postRequest(
+        "appointment/free-slots",
+        payload
+      );
 
-      console.log(timeData);
-      setTimeSlotData(timeData);
-      setOriginalTimeData(timeData);
+      const data = response
+        ? response.data.data.slots.map((r: any, i: number) => {
+            const hour = new Date(r.starttime).getUTCHours() + 1;
+            const min = new Date(r.starttime).getUTCMinutes();
+            const stHour = hour % 12;
+            const ap = hour >= 12 ? "PM" : "AM";
+            const displayTime =
+              (stHour === 0 ? 12 : stHour > 9 ? stHour : "0" + stHour) +
+              ":" +
+              (min > 9 ? min : "0" + min) +
+              " " +
+              ap;
+            return { ...r, selected: false, displayTime: displayTime, id: i };
+          })
+        : [];
+
+      setTimeSlotData(data);
+    } catch (err) {
+      console.log(err);
+      const message =
+        err.response && err.response.data && err.response.data.message;
+      toast.error(message);
     }
-  }, [show]);
+  };
 
   const handleDateChange = (data: any) => {
     setSelectedDate(data);
     setSelectedTimeSlot("");
-    setTimeSlotData(originalTimeData);
   };
-
-  console.log("timeSlotData", timeSlotData);
 
   const handleSlotSelected = (data: { [k: string]: any }) => {
     console.log(data);
@@ -67,12 +85,31 @@ const Appointmentcalendar: React.FC<PropsState> = ({
     setTimeSlotData(dataPrep);
   };
 
-  const handleSubmit = () => {
-    const payload = {
-      timeSlot: selectedTimeSlot,
-      selectedDate,
-    };
-    console.log("payload", payload);
+  const handleSubmit = async () => {
+    try {
+      const payload = {
+        appointmentStartDate: setDateTimeFormat(selectedTimeSlot.starttime),
+        appointmentDate: setDateFormat(selectedTimeSlot.starttime),
+        appointmentEndDate: setDateTimeFormat(selectedTimeSlot.endtime),
+        serviceItemId: serviceId,
+        companyId: companyId,
+        typeId: 3,
+      };
+      await UserService.postRequest("appointment/createappointment", payload);
+      setAppointmentSuccess(true);
+    } catch (err) {
+      console.log(err);
+      const message =
+        err.response && err.response.data && err.response.data.message
+          ? err.response.data.message
+          : CREATE_APPOINTMENT_MSG;
+      toast.error(message);
+    }
+  };
+
+  const handleHideSuccessModal = () => {
+    setAppointmentSuccess(false);
+    onHide();
   };
 
   return (
@@ -114,32 +151,41 @@ const Appointmentcalendar: React.FC<PropsState> = ({
                 <h4>Available Time Slots</h4>
                 <br />
                 <div className="row">
-                  {timeSlotData.map((ele: any) => (
+                  {timeSlotData.length > 0 ? (
+                    timeSlotData.map((ele: any) => (
+                      <div
+                        key={ele.id}
+                        className="col col-md-3 col-xs-4"
+                        style={{ margin: "4px 0px" }}
+                      >
+                        <div
+                          data-qa-id="slot_time"
+                          className={
+                            ele.selected
+                              ? "c-day-session__slot  c-day-session__slot--selected"
+                              : "c-day-session__slot"
+                          }
+                          // style={{
+                          //   color: ele.selected ? "#00a8e5" : "#2d2d32",
+                          //   border: ele.selected
+                          //     ? "1px solid #00a8e5"
+                          //     : "1px solid #e0e0e4",
+                          //   backgroundColor: ele.selected ? "#f0f0f5" : "none",
+                          // }}
+                          onClick={() => handleSlotSelected(ele)}
+                        >
+                          <span>{ele.displayTime}</span>
+                        </div>
+                      </div>
+                    ))
+                  ) : (
                     <div
-                      key={ele.id}
-                      className="col col-md-3 col-xs-4"
+                      className="col col-md-12 col-xs-12"
                       style={{ margin: "4px 0px" }}
                     >
-                      <div
-                        data-qa-id="slot_time"
-                        className={
-                          ele.selected
-                            ? "c-day-session__slot  c-day-session__slot--selected"
-                            : "c-day-session__slot"
-                        }
-                        // style={{
-                        //   color: ele.selected ? "#00a8e5" : "#2d2d32",
-                        //   border: ele.selected
-                        //     ? "1px solid #00a8e5"
-                        //     : "1px solid #e0e0e4",
-                        //   backgroundColor: ele.selected ? "#f0f0f5" : "none",
-                        // }}
-                        onClick={() => handleSlotSelected(ele)}
-                      >
-                        <span>{ele.timeSlot}</span>
-                      </div>
+                      No Slots Available
                     </div>
-                  ))}
+                  )}
                 </div>
                 <br />
                 <br />
@@ -157,6 +203,10 @@ const Appointmentcalendar: React.FC<PropsState> = ({
           </div>
         </Modal.Body>
       </div>
+      <AppointmentSuccess
+        show={appointmentSuccess}
+        onHide={handleHideSuccessModal}
+      />
     </Modal>
   );
 };
